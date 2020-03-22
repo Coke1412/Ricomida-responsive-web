@@ -19,8 +19,8 @@
   
   <!-- Navbar -->
   
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pr-5 pl-5">
-    <a class="navbar-brand" href="#">Ricomida</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pr-5 pl-5 fixed-top">
+    <a class="navbar-brand logo" href="#">Ricomida</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,10 +31,10 @@
           <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Recetas</a>
+          <a class="nav-link" href="#relatedrecipes">Recetas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="#us">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
@@ -45,17 +45,19 @@
   </nav>
   
   <header>
-    <div class="container">
+    <div class="container pt-5 mt-4">
       <hr class="bg-dark line">
       <div class="row col-12 pl-5">
         
         <img class="img-fluid" src="./assets/img/principal.jpg" alt="Imagen principal">
         
-        <h3 class="pt-3 text-center">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h3>
+        <h3 class="pt-3 text-center cabin-bold">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h3>
         
         <hr class="bg-dark line">
         
-        <h6 class="pt-1 pb-1">110 MIN / 6 A 8 PORCIONES</h6>
+        <h6 class="pt-1 pb-1 cabin-bold">110 MIN / 6 A 8 PORCIONES</h6>
+        
+        <br>
         
         <button class="btn btn-outline-dark sendbutton mr-2">Enviar por correo</button>
         <button class="btn btn-outline-dark sendbutton">Añadir a favoritos</button>
@@ -89,32 +91,40 @@
   <section class="container" id="relatedrecipes">
     <div class="row col-12 pl-5 pb-5">
 
-      <h3 class="pt-3 pb-4 text-center">RECETAS RELACIONADAS</h3>
+      <h3 class="pt-3 pb-4 text-center cabin-bold">RECETAS RELACIONADAS</h3>
 
       <!-- Cards begin-->
 
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-          <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-        </div>
-      </div> <br>
+      
 
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">TIRAMISÚ</h5>
-          <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cabin-bold">PANQUEUQES CON MANJAR Y CREMA</h5>
+            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+            
+          </div>
         </div>
-      </div> <br>
 
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">PLATEADA</h5>
-          <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+        <div class="card">
+          <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cabin-bold">TIRAMISÚ</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+            
+          </div>
         </div>
+
+        <div class="card">
+          <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title cabin-bold">PLATEADA</h5>
+            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+            
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -122,15 +132,15 @@
   </section>
   
 
-  <section class="container pl-5 pb-4" id="contact">
+  <section class="container pl-5 pb-4" id="us">
 
     <!-- Contact -->
 
     <div class="row col-12 text-white text-center">
 
-      <h3 class="pt-5">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+      <h3 class="pt-5 cabin-bold">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
 
-      <p class="pt-2"> y obtén las mejores recetas que tenemos en Ricomida</p>
+      <p class="pt-2"> y obtén las mejores recetas que tenemos en <span class="logo" >Ricomida</span> </p>
       
       
     </div>
@@ -143,7 +153,7 @@
   </section>
 
   
-  <footer class="container pt-4 pb-4">
+  <footer class="container pt-4 pb-4 logo">
 
     <h1 class="text-white text-center">Ricomida</h1>
     
