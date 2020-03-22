@@ -1,8 +1,19 @@
+footer {
+    background-color: #373A3C;
+}
 
+
+#contact {
+    background-color: #DC3545;
+}
 .sendbutton {
     font-size: 3vw;
 }
 
 .line {
     width: 70vw;
+}
+
+.btn {
+    
 }
