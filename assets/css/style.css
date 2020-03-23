@@ -1,3 +1,7 @@
+
+
+
+
 footer {
     background-color: #373A3C;
 }
@@ -6,11 +10,17 @@ footer {
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
 }
+
+.cabin-regular{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
 #us {
     background-color: #DC3545;
 }
 .sendbutton {
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .card {
