@@ -32,7 +32,7 @@
           <a class="nav-link" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#relatedrecipes">Recetas</a>
+          <a class="nav-link display-md-1" href="#relatedrecipes">Recetas</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#us">Nosotros</a>
@@ -55,7 +55,7 @@
           <img class="img-fluid" id="pizza" src="./assets/img/principal.jpg" alt="Imagen principal">
         </div>
 
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-6 text-center">
 
           <h3 class="pt-3 text-center cabin-bold" id="title">PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y <br> CHAMPIÑONES</h3>
 
@@ -65,8 +65,8 @@
 
           <br>
 
-          <button class="btn btn-outline-dark sendbutton cabin-regular pl-1 pr-1 mr-3 ml-2">Enviar por correo</button>
-          <button class="btn btn-outline-dark sendbutton pl-1 pr-1 ml-1 cabin-regular">Añadir a favoritos</button>
+          <button type="button" class="btn btn-outline-dark sendbutton cabin-regular pl-1 pr-1 mr-1 ml-2" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+          <button class="btn btn-outline-dark sendbutton pl-1 pr-1 ml-1 cabin-regular" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
 
         </div>
       </div>
@@ -132,7 +132,7 @@
 
 
   <section class="container mt-5" id="main_recipe">
-    <div class="row pl-5 cabin-regular">
+    <div class="row pl-5 cabin-regular pb-5">
       <!-- Recipe -->
 
       <div class="col-sm">
@@ -211,7 +211,7 @@
     <!-- Contact -->
 
     <div class="row text-white text-center">
-      <div class="col">
+      <div class="col pt-md-5 pb-md-5">
 
         <h3 class="pt-5 cabin-bold">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
 
@@ -221,9 +221,9 @@
 
     </div>
 
-    <div class="text-center">
+    <div class="text-center pb-md-5">
 
-      <button type="button" class="btn btn-outline-light" id="beginbutton cabin-regular">Empezar</button>
+      <button type="button" class="btn btn-outline-light pr-md-5 pl-md-5" id="beginbutton cabin-regular">Empezar</button>
 
     </div>
 
@@ -237,12 +237,12 @@
   </footer>
 
 
-
+  
   <!-- jQuery slim minified, then Popper.js, then Bootstrap.js -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+  
   <script src="./assets/js/script.js"></script>
 </body>
 </html>

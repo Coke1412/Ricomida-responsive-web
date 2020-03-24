@@ -1,6 +1,7 @@
 
-
-
+html {
+    scroll-behavior: smooth;
+  }
 
 footer {
     background-color: #373A3C;
@@ -47,6 +48,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media (min-width: 576px) { 
+
     .sendbutton {
         font-size: 1.5vw;
     }
@@ -64,3 +66,5 @@ footer {
     }
   
  }
+
+
