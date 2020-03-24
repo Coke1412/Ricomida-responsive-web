@@ -2,30 +2,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>Ricomida</title>
-  
+
   <!-- Google Fonts: Cabin: regular, bold; Lobster: regular-->
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Lobster&display=swap" rel="stylesheet">
-  
+
   <!-- BOOTSTRAP CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
+
   <!-- MY STYLE -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  
+
 </head>
 
 <body>
-  
+
   <!-- Navbar -->
-  
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark pr-5 pl-5 fixed-top">
     <a class="navbar-brand logo" href="#">Ricomida</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -42,29 +42,29 @@
         </li>
       </ul>
     </div>
-    
+
   </nav>
-  
+
   <header>
     <div class="container pt-5 mt-4">
       <hr class="bg-dark line1">
       <div class="row pl-5 col-12">
-        
+
         <div class="col-12 col-sm-6">
 
           <img class="img-fluid" id="pizza" src="./assets/img/principal.jpg" alt="Imagen principal">
         </div>
 
         <div class="col-12 col-sm-6">
-        
+
           <h3 class="pt-3 text-center cabin-bold" id="title">PIZZA AL ESTILO <br> CHICAGO CON <br> ESPINACAS Y <br> CHAMPIÑONES</h3>
-          
+
           <hr class="bg-dark line2">
-          
+
           <h6 class="pt-1 pb-2 text-center cabin-bold">110 MIN / 6 A 8 PORCIONES</h6>
-          
+
           <br>
-          
+
           <button class="btn btn-outline-dark sendbutton cabin-regular pl-1 pr-1 mr-3 ml-2">Enviar por correo</button>
           <button class="btn btn-outline-dark sendbutton pl-1 pr-1 ml-1 cabin-regular">Añadir a favoritos</button>
 
@@ -72,18 +72,75 @@
       </div>
     </div>
   </header>
-  
-  
+
+  <section id="carouselSection" class="my-5 pt-3 d-none d-sm-block">
+
+    <!-- CAROUSEL -->
+
+    <div class="container">
+
+        <div id="gallery" class="carousel slide mb-5 pb-3" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#gallery" data-slide-to="0 " class="active"></li>
+                <li data-target="#gallery" data-slide-to="1 "></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active text-center ">
+                    <div class="row ">
+                        <div class="col ">
+                            <img class="img-fluid " src="assets/img/slider-1.png" alt="Imagen 1 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid " src="assets/img/slider-2.png" alt="Imagen 2 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid " src="assets/img/slider-3.png" alt="Imagen 3 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid " src="assets/img/slider-4.png" alt="Imagen 4 Carousel" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item text-center ">
+                    <div class="row ">
+                        <div class="col ">
+                            <img class="img-fluid" src="assets/img/slider-5.png" alt="Imagen 5 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid" src="assets/img/slider-6.png" alt="Imagen 6 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid" src="assets/img/slider-7.png" alt="Imagen 7 Carousel" />
+                        </div>
+                        <div class="col ">
+                            <img class="img-fluid" src="assets/img/slider-8.png" alt="Imagen 8 Carousel" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
   <section class="container mt-5" id="main_recipe">
     <div class="row pl-5 cabin-regular">
       <!-- Recipe -->
-    
+
       <div class="col-sm">
-        <h6>INGREDIENTES</h6> 
+        <h6>INGREDIENTES</h6>
         <br><br>
-        
-        
-        
+
+
+
         <p>Masa <br><br> 20 gr de levadura seca instantánea <br> 1 cucharadita de azúcar <br> 500 ml agua tibia <br> 100 ml aceite  <br> 4 cucharadas de aceite de oliva <br> 65 gr harina de maíz fina (chuchoca) <br> 2 cucharaditas de sal <br> 625 gr harina <br> Salsa <br><br> 5 cucharadas de aceite de oliva <br> ½ cebolla picada en cubos finos <br> 2 cucharaditas de sal <br> 3 cucharadas de Orégano Gourmet <br> 1 ½ cucharadas de Albahaca Gourmet <br> 2 tarro de tomates en cubos al natural <br> 2 cucharaditas de azúcar Relleno <br> ½ cebolla, en cubos <br> 500 gr hojas de espinacas picadas <br> 400 gr de champiñones, laminados <br> 300 gr de queso mozarella <br> 4 cucharadas queso parmesano </p> <br><br>
 
       </div>
@@ -98,13 +155,13 @@
       </div>
 
 
-      
+
     </div>
-    
-    <hr class="bg-dark line3"> 
+
+    <hr class="bg-dark line3">
   </section>
-  
-  
+
+
   <section class="container-fluid" id="relatedrecipes">
     <div class="row pb-5 ml-1">
 
@@ -112,7 +169,7 @@
 
       <!-- Cards begin-->
 
-      
+
 
       <div class="card-deck pl-3 pr-3">
         <div class="card">
@@ -120,7 +177,7 @@
           <div class="card-body">
             <h5 class="card-title cabin-bold">PANQUEUQES CON MANJAR Y CREMA</h5>
             <p class="card-text cabin-regular">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
-            
+
           </div>
         </div>
 
@@ -129,7 +186,7 @@
           <div class="card-body">
             <h5 class="card-title cabin-bold">TIRAMISÚ</h5>
             <p class="card-text cabin-regular">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
-            
+
           </div>
         </div>
 
@@ -138,7 +195,7 @@
           <div class="card-body">
             <h5 class="card-title cabin-bold">PLATEADA</h5>
             <p class="card-text cabin-regular">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
-            
+
           </div>
         </div>
 
@@ -147,7 +204,7 @@
     </div>
 
   </section>
-  
+
 
   <section class="container-fluid pb-4" id="us">
 
@@ -157,33 +214,35 @@
       <div class="col">
 
         <h3 class="pt-5 cabin-bold">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
-        
+
         <p class="pt-2"> y obtén las mejores recetas que tenemos en <span class="logo" >Ricomida</span> </p>
-        
+
       </div>
-    
+
     </div>
-      
+
     <div class="text-center">
 
       <button type="button" class="btn btn-outline-light" id="beginbutton cabin-regular">Empezar</button>
-      
+
     </div>
 
   </section>
 
-  
+
   <footer class="pt-4 pb-4 logo">
 
     <h1 class="text-white text-center">Ricomida</h1>
-    
+
   </footer>
-  
-  
-  
+
+
+
   <!-- jQuery slim minified, then Popper.js, then Bootstrap.js -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
