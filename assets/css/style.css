@@ -7,6 +7,13 @@ footer {
     background-color: #373A3C;
 }
 
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #5d5959;
+}
+
 .cabin-bold{
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
